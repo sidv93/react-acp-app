@@ -6,7 +6,7 @@ import AcpSidenav from '@sidv93/react-acp-sidenav';
 function App() {
   return (
     <div>
-      <AcpSidenav text="hello" />
+      <AcpSidenav unreadCount={4} />
     </div>
   );
 }
